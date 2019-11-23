@@ -1,5 +1,7 @@
 # Functionally Reduced And-Inverter Graph (FRAIG)
 
+<img src="https://github.com/PierreSue/FRAIG/diagram.png" width="60%" height="60%">
+
 ## Objective
 
 This is the implementation of circuit simplication simplification. By means of unused gate sweeping, trivial optimization, simplification by structural hash, and previous simulation, I try to preliminarily simplify the circuits in an efficient manner. After that, I also apply Equivalence gate merging to the circuits using Boolean Satisfiability (SAT) solver. 
