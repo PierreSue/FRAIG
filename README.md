@@ -15,12 +15,9 @@ Sweeping out the gates that cannot be reached from POs. After this operation, al
 
 There are four cases here. 
 
-(1) When the both fanins are the same, replace them with only one fanin.
-
-(2) When one of the fanins is true while the other is false, replace it with 0.
-
-(3) When one of the fanins is true, replace it with the other fanin.
-
+(1) When the both fanins are the same, replace them with only one fanin. <br></br>
+(2) When one of the fanins is true while the other is false, replace it with 0. <br></br>
+(3) When one of the fanins is true, replace it with the other fanin. <br></br>
 (4) When one of the fanins is false, replace it with 0.
 
 The overall required running time is the same as one Depth First Search Traversal.
