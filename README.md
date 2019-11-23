@@ -1,6 +1,6 @@
 # Functionally Reduced And-Inverter Graph (FRAIG)
 
-<img src="https://github.com/PierreSue/FRAIG/diagram.png" width="60%" height="60%">
+<img src="https://github.com/PierreSue/FRAIG/blob/master/Diagram.png" width="60%" height="60%">
 
 ## Objective
 
