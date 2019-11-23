@@ -9,7 +9,7 @@ This is the implementation of circuit simplication simplification. By means of u
 ## The analysis of pros and cons of each method
 1. Unused Gate Sweeping
 
-Sweeping out the gates that cannot be reached from POs. After this operation, all the gates that are originally “defined-butnot-used” will be deleted. ***Depth First Search Traversal*** is used here to check if the signal will pass to POs through these gates. This method can decrease the overall complexity and the required running time.
+  Sweeping out the gates that cannot be reached from POs. After this operation, all the gates that are originally “defined-butnot-used” will be deleted. ***Depth First Search Traversal*** is used here to check if the signal will pass to POs through these gates. This method can decrease the overall complexity and the required running time.
 
 2. Trivial optimization
 
